@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Koh on Jason Koh</title>
+    <link>http://jbkoh.github.io/</link>
+    <description>Recent content in Jason Koh on Jason Koh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Jason Koh</copyright>
+    <lastBuildDate>Mon, 02 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tutorial: Building Metadata Normalization with Plaster</title>
+      <link>http://jbkoh.github.io/publication/plaster_tutorial/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/plaster_tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Building Metadata Normalization</title>
+      <link>http://jbkoh.github.io/publication/plaster_poster/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/plaster_poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond a House of Sticks: Formalizing Metadata Tags with Brick</title>
+      <link>http://jbkoh.github.io/publication/brickplus/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/brickplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who can Access What, and When? Understanding Minimal Access Requirements of Building Applications</title>
+      <link>http://jbkoh.github.io/publication/acl/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Models and Methods for Programming Cyber-Physical Systems (Keynote)</title>
+      <link>http://jbkoh.github.io/publication/lctes_keynote/</link>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/lctes_keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plaster: an integration, benchmark, and development framework for metadata normalization methods</title>
+      <link>http://jbkoh.github.io/publication/plaster/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/plaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrabble: Transferrable Semi-Automated Semantic Metadata Normalization using Intermediate Representation</title>
+      <link>http://jbkoh.github.io/publication/scrabble_paper/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/scrabble_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brick : Metadata Schema for Portable Smart Building Applications</title>
+      <link>http://jbkoh.github.io/publication/brick_ap/</link>
+      <pubDate>Tue, 28 Aug 2018 11:13:29 -0800</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/brick_ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster: Scrabble: Converting Unstructured Metadata into Brick for Many Buildings</title>
+      <link>http://jbkoh.github.io/publication/scrabble_poster/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/scrabble_poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster: Data Hub Architecture for Smart Cities</title>
+      <link>http://jbkoh.github.io/publication/citadel_poster/</link>
+      <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/citadel_poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Mediator for Demand Response in Electrical Grids and Buildings</title>
+      <link>http://jbkoh.github.io/publication/info_med/</link>
+      <pubDate>Thu, 02 Feb 2017 12:44:02 -0800</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/info_med/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT and Schema.org: Getting Started</title>
+      <link>http://jbkoh.github.io/publication/iotschema/</link>
+      <pubDate>Mon, 02 Jan 2017 18:38:07 -0800</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/iotschema/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portable Queries Using the Brick Schema for Building Applications</title>
+      <link>http://jbkoh.github.io/publication/brick_poster/</link>
+      <pubDate>Wed, 02 Nov 2016 15:13:29 -0800</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/brick_poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brick: Towards a Unified Metadata Schema For Buildings</title>
+      <link>http://jbkoh.github.io/publication/brick/</link>
+      <pubDate>Wed, 02 Nov 2016 11:13:29 -0800</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/brick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genie: a longitudinal study comparing physical and software thermostats in office buildings</title>
+      <link>http://jbkoh.github.io/publication/genie/</link>
+      <pubDate>Mon, 12 Sep 2016 11:13:29 -0800</pubDate>
+      
+      <guid>http://jbkoh.github.io/publication/genie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

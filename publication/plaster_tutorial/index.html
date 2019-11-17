@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="author" content="Jason Koh">
+  
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="http://jbkoh.github.io/index.xml" type="application/rss+xml" title="Jason Koh">
+  <link rel="feed" href="http://jbkoh.github.io/index.xml" type="application/rss+xml" title="Jason Koh">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://jbkoh.github.io/publication/plaster_tutorial/">
+
+  
+
+  <title>Tutorial: Building Metadata Normalization with Plaster | Jason Koh</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Jason Koh</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Main</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#source_code">
+            
+            <span>Source Code</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="pub" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <div class="pub-title">
+      <h1 itemprop="name">Tutorial: Building Metadata Normalization with Plaster</h1>
+      <span class="pub-authors" itemprop="author">
+        
+        Jason Koh, Dezhi Hong, Yuvraj Agarwal, Rajesh K. Gupta
+        
+      </span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjbkoh.github.io%2fpublication%2fplaster_tutorial%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Tutorial%3a%20Building%20Metadata%20Normalization%20with%20Plaster&amp;url=http%3a%2f%2fjbkoh.github.io%2fpublication%2fplaster_tutorial%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjbkoh.github.io%2fpublication%2fplaster_tutorial%2f&amp;title=Tutorial%3a%20Building%20Metadata%20Normalization%20with%20Plaster"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjbkoh.github.io%2fpublication%2fplaster_tutorial%2f&amp;title=Tutorial%3a%20Building%20Metadata%20Normalization%20with%20Plaster"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Tutorial%3a%20Building%20Metadata%20Normalization%20with%20Plaster&amp;body=http%3a%2f%2fjbkoh.github.io%2fpublication%2fplaster_tutorial%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Building metadata is one of the foundations of deploying applications and conducting research on buildings. Over the last four years at BuildSys, we have presented a series of effort in tackling the building metadata challenge --- from Brick, a unified metadata schema, to various algorithms (Scrabble, Zodiac, and BuildingAdapter) for normalizing building metadata. While these works have promised to facilitate the conversion of metadata in existing buildings into Brick, actual users with not much programming experience, such as building managers, are still lacking a practical tool that provides these algorithms in their work life. To this end, we have designed and developed Plaster and Plaster Web Service. In particular, Plaster is a Python library including recent metadata normalization algorithms and provides a unified interface to them, which enables benchmarking and integration of different algorithms as well as development of new ones with regard to the standardized programming model. Using Plaster’s Python interfaces, Plaster Web Service provides a user-friendly web interface for non-programmer users to easily explore the state-of-art metadata normalization algorithms. In this tutorial, we present an overview of the metadata normalization workflow and a couple of algorithms in Plaster. We will also go over Plaster Web Service to help users understand the underlying mechanisms and workflow. Plaster WebService is freely available at https://plaster.ucsd.edu.</p>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">Proceedings of the 5th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, 2019</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            November, 2019
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://docs.google.com/presentation/d/1QLvEkQx5HFO6kQRK3C1Jc9dhqT_GlJYXbyMN-xjAcWU/edit#slide=id.g73d49874ef_0_62">
+  Slides
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://plaster.ucsd.edu">
+  Plaster WS
+</a>
+
+<a class="btn btn-primary btn-outline" href="https://buildsys.acm.org/2019/workshops/#t1">
+  Tutorial Description
+</a>
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+  </div>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="http://jbkoh.github.io/publication/plaster_poster/"><span
+      aria-hidden="true">&larr;</span> Interactive Building Metadata Normalization</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2019 Jason Koh &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+
